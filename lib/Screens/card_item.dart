@@ -19,12 +19,12 @@ class CartItem extends StatelessWidget {
               context: context,
               builder: (ctx) => AlertDialog(
                     actions: [
-                      FlatButton(
+                      ElevatedButton(
                           onPressed: () {
                             Navigator.of(context).pop(true);
                           },
                           child: Text("Yes")),
-                      FlatButton(
+                      ElevatedButton(
                           onPressed: () {
                             Navigator.of(context).pop(false);
                           },

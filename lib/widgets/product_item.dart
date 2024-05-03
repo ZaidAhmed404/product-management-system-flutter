@@ -39,7 +39,7 @@ class ProductItem extends StatelessWidget {
               icon: Icon(
                 product.isFavorite ? Icons.favorite : Icons.favorite_border,
               ),
-              color: Theme.of(context).accentColor,
+              color: Theme.of(context).cardColor,
               onPressed: () {
                 product.toggleFavoriteStatus(
                     authData.token as String, authData.userId);
@@ -57,8 +57,8 @@ class ProductItem extends StatelessWidget {
             onPressed: () {
               cart.addItem(product.id as String, product.price as double,
                   product.title as String);
-              Scaffold.of(context).hideCurrentSnackBar();
-              Scaffold.of(context).showSnackBar(SnackBar(
+              ScaffoldMessenger.of(context).hideCurrentSnackBar();
+              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                 content: Text(
                   "Add Item to cart",
                   textAlign: TextAlign.center,
@@ -72,7 +72,7 @@ class ProductItem extends StatelessWidget {
                 ),
               ));
             },
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).cardColor,
           ),
         ),
       ),

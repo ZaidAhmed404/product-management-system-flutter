@@ -76,8 +76,8 @@ class _OrderButtonState extends State<OrderButton> {
   var _isloading = false;
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
-        textColor: Theme.of(context).primaryColor,
+    return ElevatedButton(
+        // textColor: Theme.of(context).primaryColor,
         onPressed: (widget.cart.totalAmount <= 0 || _isloading)
             ? null
             : () async {
