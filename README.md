@@ -1,3 +1,6 @@
+![2](https://github.com/ZaidAhmed404/product-management-system-flutter/assets/123987830/883a9f04-8742-4151-ba2c-18a005d73701)
+
+
 #  MyShop
 
 MyShop is developed in Flutter is a mobile application designed to facilitate the management of products, inventory, and related information. This system can be used by businesses to track and organize their product catalog, manage inventory levels, and monitor sales.
