@@ -34,6 +34,10 @@ MyShop is developed in Flutter is a mobile application designed to facilitate th
 5.  Real Time Database.
 6.  Create/Read/Edit/Delete products.
 
+![1](https://github.com/ZaidAhmed404/product-management-system-flutter/assets/123987830/44d3c843-327b-4538-9a3a-142a8cdae4f9)
+![2](https://github.com/ZaidAhmed404/product-management-system-flutter/assets/123987830/8ba43954-c178-4196-bc62-0bf947387163)
+
+
 
 
 
